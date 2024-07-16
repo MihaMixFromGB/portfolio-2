@@ -1,0 +1,11 @@
+{
+  "Metadata": {
+    "title": "Portfolio",
+    "description": "Frontend Developer Portfolio built using NextJS"
+  },
+  "Hero": {
+    "title": "Transforming Concepts into Seamless User Experiences",
+    "greeting": "Hi, I'm Anton, a Frontend Developer based in Novosibirsk (Russia)",
+    "aboutLink": "Show my work"
+  }
+}
