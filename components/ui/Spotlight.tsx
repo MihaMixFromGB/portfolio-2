@@ -6,7 +6,7 @@ type SpotlightProps = {
   fill?: string;
 };
 
-const Spotlight = ({ className, fill }: SpotlightProps) => {
+const Spotlight: React.FC<SpotlightProps> = ({ className, fill }) => {
   return (
     <svg
       className={cn(

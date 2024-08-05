@@ -1,10 +1,37 @@
 "use client";
 import React from "react";
+import { about } from "@/data/sections";
+import BentoGrid, { BentoGridItem } from "./ui/BentoGrid";
 
-function Grid() {
+const Grid: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 lg:grid-flow-row-2 gap-4 max-w-7xl mx-auto w-full"></div>
+    <section id="about">
+      <BentoGrid className="w-full py-20">
+        {about.map(
+          ({
+            id,
+            title,
+            description,
+            img,
+            className,
+            titleClassName,
+            imgClassName,
+          }) => (
+            <BentoGridItem
+              id={id}
+              key={id}
+              title={title}
+              description={description}
+              img={img}
+              className={className}
+              titleClassName={titleClassName}
+              imgClassName={imgClassName}
+            />
+          )
+        )}
+      </BentoGrid>
+    </section>
   );
-}
+};
 
 export default Grid;
