@@ -1,13 +1,15 @@
 "use client";
 import React from "react";
-import { about } from "@/data/sections";
+import { useTranslations } from "next-intl";
+import { intro } from "@/data/intro";
 import BentoGrid, { BentoGridItem } from "./ui/BentoGrid";
 
-const Grid: React.FC = () => {
+const Intro: React.FC = () => {
+  const t = useTranslations("Intro");
   return (
     <section id="about">
       <BentoGrid className="w-full py-20">
-        {about.map(
+        {intro.map(
           ({
             id,
             title,
@@ -20,8 +22,8 @@ const Grid: React.FC = () => {
             <BentoGridItem
               id={id}
               key={id}
-              title={title}
-              description={description}
+              title={t(title)}
+              description={t(description)}
               img={img}
               className={className}
               titleClassName={titleClassName}
@@ -34,4 +36,4 @@ const Grid: React.FC = () => {
   );
 };
 
-export default Grid;
+export default Intro;

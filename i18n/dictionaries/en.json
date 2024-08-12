@@ -10,5 +10,24 @@
   },
   "Navigation": {
     "home": "Home"
+  },
+  "Intro": {
+    "title_1": "I prioritize client collaboration, fostering open communication",
+    "description_1": "",
+    "title_2": "I'm very flexible with time zone communications",
+    "description_2": "",
+    "title_3": "My tech stack",
+    "description_3": "I constantly try to improve"
+  },
+  "Summary": {
+    "title": "My professional experience",
+    "title_1": "Frontend Developer",
+    "description_1": "Work more than two years in the development of a web-based platform using React, enhancing interactivity.",
+    "title_2": "Mobile App Dev",
+    "description_2": "Design and develop mobile app for both iOS & Android platforms using React Native.",
+    "title_3": "Fullstack Developer",
+    "description_3": "Developed and maintained online games embedded in social networks (VK, Facebook) using modern web technologies.",
+    "title_4": "PhD",
+    "description_4": "Have a PhD in Power System Engineering (Automated Power System). I will be glad to begin solving very intricate and complex problems."
   }
 }

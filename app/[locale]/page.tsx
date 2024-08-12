@@ -1,4 +1,5 @@
-import Grid from "@/components/Grid";
+import SummaryExperience from "@/components/SummaryExperience";
+import Intro from "@/components/Intro";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
 
@@ -8,7 +9,8 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <NavBar />
         <Hero />
-        <Grid />
+        <Intro />
+        <SummaryExperience />
       </div>
     </main>
   );

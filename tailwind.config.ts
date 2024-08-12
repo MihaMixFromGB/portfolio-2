@@ -21,6 +21,9 @@ module.exports = {
           100: "#000319",
         },
         purple: "#CBACF9",
+        background: "hsl(var(--background))",
+        border: "hsl(var(--border))",
+        foreground: "hsl(var(--foreground))",
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
